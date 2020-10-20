@@ -23,9 +23,9 @@ for (const element of hearts){
      
     })
      .catch((error) => {
-       errorh.classList.remove("hidden");
-       errorh.textContent=error;
-       setTimeout(function(){errorh.classList.add("hidden");}, 5000);
+      errorMessage.classList.remove("hidden");
+      errorMessage.textContent=error;
+       setTimeout(function(){errorMessage.classList.add("hidden");}, 5000);
     })
   })
   
